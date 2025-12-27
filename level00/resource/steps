@@ -1,0 +1,10 @@
+- Check files associated to user flag00
+```
+find / -user flag00 2>/dev/null
+```
+
+- Inspect files found
+-> cdiiddwpgswtgt (Caesar Cipher)
+
+- Decrypt 
+-> nottoohardhere
