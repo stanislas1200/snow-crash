@@ -1,0 +1,10 @@
+- Check passwd files associated to user flag01
+```
+cat /etc/passwd | grep flag01
+```
+
+- Inspect pass
+-> 42hDRfypTqqnw (DES hash)
+
+- Decrypt using john 
+-> abcdefg
