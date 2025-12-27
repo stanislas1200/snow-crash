@@ -1,0 +1,12 @@
+- Inspect level02.pcap file
+-> packets capture file
+
+- Inspect using 
+-  - wireshark
+-  - wireview.github.io
+-  - strings/cat
+-  -  -> l.le.ev.ve.el.lX.X
+-  -  -> ft_wandr...NDRel.L0L
+
+- Interpret backspace (.)
+-> ft_waNDReL0L
