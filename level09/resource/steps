@@ -1,0 +1,9 @@
+Inspect file level09
+- Custom encryption 
+- c + index
+
+Reverse 
+- c - index
+- python -c 'print "".join(chr(ord(c) - i) for i, c in enumerate(open("token").read().strip()))'
+-> f3iji1ju5yuevaus41q1afiuq
+-> s5cAJpM8ev6XHw998pRWG728z
