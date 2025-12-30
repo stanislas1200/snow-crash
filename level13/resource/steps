@@ -1,0 +1,13 @@
+Inspect file level13
+- give token by checking uid
+
+Crack file
+- GNU debugger 
+- gdb ./level13
+- disas main -> inspect main
+- break getuid -> Breakpoint 
+- run -> run to Breakpoint 
+- finish 
+- set $eax = 4242 -> Edit the return value
+- continue
+-> 2A31L79asukciNyi8uppkEuSx

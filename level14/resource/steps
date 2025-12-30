@@ -1,0 +1,23 @@
+Crack getflag ?
+- give flag by checking uid
+- GNU debugger 
+- gdb getflag
+- Bypass security 
+```
+catch syscall ptrace
+commands 1
+set $eax = 0
+continue
+end 
+```
+- break getuid -> Breakpoint 
+- run -> run to Breakpoint 
+- finish 
+- set $eax = 3014 -> Edit the return value
+- continue
+-> 7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ
+
+Or find adresse of cpm 0xbc6,%eax for je 
+(Jump if eax = 3014)
+- disas main
+- ju *adresse
